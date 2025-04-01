@@ -1,76 +1,69 @@
-# Modern Portfolio Website
+# Personal Portfolio Website
 
-A modern, responsive portfolio website built with React, Three.js, and Tailwind CSS. This portfolio features smooth animations, 3D elements, and a clean design.
+A modern, responsive portfolio website built with React, Vite, TailwindCSS, and Three.js.
 
-## Features
+## 🚀 Features
 
-- 🎨 Modern and clean design
-- 🌟 Three.js animations and 3D elements
-- 📱 Fully responsive
-- ⚡ Smooth animations with Framer Motion
-- 🎯 Optimized performance
-- 📝 Contact form
-- 🎨 Custom color scheme
+- Modern UI/UX
+- Interactive 3D background animations
+- Responsive design
+- Smooth scroll animations
+- Flip card interactions
+- Contact section with social links
+- Project showcase
+- Skills section with animations
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- React
-- Three.js
-- Tailwind CSS
-- Framer Motion
+- React.js
 - Vite
+- TailwindCSS
+- Three.js
+- Framer Motion
+- EmailJS
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
+## 🏃‍♂️ Running Locally
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio-2025.git
-cd portfolio-2025
+git clone https://github.com/ashwathdnd/newportfolio.git
 ```
 
 2. Install dependencies:
 ```bash
+cd newportfolio
 npm install
-# or
-yarn install
 ```
 
 3. Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-## Customization
+## 🌐 Deployment
 
-1. Update personal information in the components
-2. Modify the color scheme in `tailwind.config.js`
-3. Add your own projects in the `Projects` component
-4. Update the skills in the `Skills` component
-5. Add your social links in the `Contact` and `Footer` components
+This project is configured for deployment on Vercel. Simply:
 
-## Building for Production
+1. Connect your GitHub repository to Vercel
+2. Select the repository
+3. Deploy with default settings (Vite is automatically detected)
 
-To create a production build:
+## 📝 Environment Variables
 
-```bash
-npm run build
-# or
-yarn build
-```
+No environment variables are required for basic functionality.
 
-The build output will be in the `dist` directory.
+## 🔧 Customization
 
-## License
+- Edit `src/components/` for section content
+- Modify `tailwind.config.js` for theme customization
+- Update `public/` directory for assets
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+## 📄 License
+
+MIT License - feel free to use this project for your own portfolio!
+
+## 🤝 Contact
+
+For any questions or feedback, please reach out at ashwathdnd@gmail.com 
