@@ -1,11 +1,16 @@
 import { motion } from 'framer-motion';
 
+// Import images from public directory
+const reelaiImage = new URL('/reelai.png', import.meta.url).href;
+const mlImage = new URL('/ml.png', import.meta.url).href;
+const dsinetworkImage = new URL('/dsinetwork.png', import.meta.url).href;
+
 const projects = [
   {
     title: "ReelAI",
     description: "A full-stack video processing platform with AI integration. Built with ReactJS, NodeJS, and PostgreSQL, featuring Clerk authentication, optimized video rendering, and cloud-native infrastructure.",
     technologies: ["ReactJS", "NodeJS", "PostgreSQL", "Clerk", "DigitalOcean", "Stripe", "Google Gemini API"],
-    image: "/reelai.png",
+    image: reelaiImage,
     github: "#",
     demo: "http://reelai.studio",
     highlights: [
@@ -19,7 +24,7 @@ const projects = [
     title: "Age Recognition ML Model",
     description: "A CNN-based computer vision system for age prediction, achieving 90% accuracy. Features real-time predictions and optimized model architecture for edge deployment.",
     technologies: ["Python", "PyTorch", "Flask", "OpenCV", "TensorFlow"],
-    image: "/ml.png",
+    image: mlImage,
     github: "https://github.com/ashwathdnd/Age-Recognition-Model",
     demo: "#",
     highlights: [
@@ -33,7 +38,7 @@ const projects = [
     title: "dsinetwork.org",
     description: "A comprehensive Brother Directory for Delta Sigma Iota Fraternity, serving 25 active chapters across the nation with robust SEO and security protocols.",
     technologies: ["WordPress", "PHP", "DreamHost", "SQL"],
-    image: "/dsinetwork.png",
+    image: dsinetworkImage,
     github: "#",
     demo: "https://dsinetwork.org",
     highlights: [

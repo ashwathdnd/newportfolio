@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a href="#" className="text-2xl font-bold text-secondary">
-            JD
+            AD
           </a>
           <div className="hidden md:flex space-x-8">
             <a href="#about" className="text-textPrimary hover:text-secondary transition-colors">
